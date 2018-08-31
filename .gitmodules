@@ -1,0 +1,4 @@
+[submodule "xmarts_pos_invoice"]
+	path = xmarts_pos_invoice
+	url = git@github.com:viernes/xmarts_pos_invoice.git
+	branch = master
