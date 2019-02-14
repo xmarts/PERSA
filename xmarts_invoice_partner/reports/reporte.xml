@@ -1,0 +1,14 @@
+
+<odoo>
+    <template id="report_invoice_costumization" inherit_id="account.report_invoice_document">
+        <data>
+<xpath expr="/t/t/div/div[1]/div[4]" position="after">
+    <div class="col-auto">
+                            <strong>Project: </strong>
+                            <p t-field="o.project_id_from_so"/>
+                        </div>
+  </xpath>
+</data>
+    </template>
+	
+</odoo>
